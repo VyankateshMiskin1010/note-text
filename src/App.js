@@ -1,17 +1,16 @@
 // App.js
 import React from "react";
 import "./App.css"; // You can add your custom styles here
-import MyNavbar from "./MyNavbar";
-import Card from "./Card";
-import Box from "./Box";
+import MyNavbar from "./Components/MyNavbar";
+// import Form from "./Components/Form";
+import AboutUs from "./Components/AboutUs";
 
 function App() {
   return (
     <div className="App">
-      <MyNavbar />
-      <Card />
-      <Box />
-      {/* Add the rest of your application content here */}
+      <MyNavbar title="Text_Note" />
+      {/* <Form heading="Enter Text Below" /> */}
+      <AboutUs />
     </div>
   );
 }
